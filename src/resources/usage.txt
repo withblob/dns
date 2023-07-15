@@ -1,0 +1,15 @@
+\{gr-b}Blob DNS\{c} — global DNS checker \{bl}🌐\{c}
+\{u}Usage:\{c}
+  \{b}blobdns\{c} \{gr}<arguments>\{c} \{ye-b}[options]\{c}
+
+\{u}Examples:\{c}
+  \{b}blobdns\{c} \{bl}example.com\{c}
+  \{b}blobdns\{c} \{bl}example.com\{c} \{gr}A\{c}
+  \{b}blobdns\{c} \{bl}foo.example.com bar.example.com\{c} \{gr}CNAME\{c}
+
+\{u}Arguments:\{c}
+  \{gr}<arguments>\{c} domains, records
+
+\{u}Options:\{c}
+  \{ye-b}-v, --version\{c} Print version information
+  \{ye-b}-h, --help\{c} Print list of options
