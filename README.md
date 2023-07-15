@@ -5,7 +5,11 @@
 * Germany (Frankfurt)
 * Singapore
 
-Can be useful to see how your DNS records propagate blobally. 
+Unlike other similar tools that connect to remote nameservers, `blobdns` actually runs the DNS queries globally by utilizing Blob's distributed DNS checking API. 
+
+This approach will actually test the DNS record propagation from the perspective of real users, located in those countries.
+
+It can be useful to see how your DNS records propagate blobally ;) 
 
 ```
 Usage:
@@ -28,10 +32,10 @@ Options:
 
 #### `blobdns example.com`
 
-<img width="535" alt="image" src="https://github.com/withblob/dns/assets/139460414/548e1772-a98c-40e1-9825-e6fd6cd79ee3">
+<img width="528" alt="image" src="https://github.com/withblob/dns/assets/139460414/296b80c0-e35a-490c-8efb-e92fd6d2245f">
 
 
-Built in Rust. To use it you will need to compile it yourself (for now), pre-built packages will come soon!
+Built in Rust. To use it, you will need to compile it yourself (for now). Pre-built packages will come soon!
 
 Licensed under MIT license.
 
