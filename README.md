@@ -20,8 +20,11 @@ Examples:
   blobdns example.com A
   blobdns foo.example.com bar.example.com CNAME
 
+  # Get AAAA record from 1.1.1.1 Cloudflare server
+  blobdns example.com AAAA @1.1.1.1
+
 Arguments:
-  <arguments> domains, records
+  <arguments> domains, records, nameservers
 
 Options:
   -v, --version Print version information
