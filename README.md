@@ -1,4 +1,4 @@
-## Blob DNS — blobal DNS checker CLI 🌐
+## Blob DNS — global DNS checker CLI 🌐
 
 #### Like `dig` or `dog` but checks DNS records in three regions:
 * USA (Ohio)
