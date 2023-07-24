@@ -11,9 +11,9 @@ This approach will actually test the DNS record propagation from the perspective
 
 It can be useful to see how your DNS records propagate blobally ;) 
 
-```
-Usage:
-  blobdns <arguments> [options]
+## Usage:
+```md
+blobdns <arguments> [options]
 
 Examples:
   blobdns example.com
@@ -35,11 +35,18 @@ Options:
 
 #### `blobdns example.com`
 
-<img width="528" alt="image" src="https://github.com/withblob/dns/assets/139460414/296b80c0-e35a-490c-8efb-e92fd6d2245f">
+<img width="600" alt="Screenshot 2023-07-24 at 12 51 50" src="https://github.com/withblob/dns/assets/139460414/8bf6e40d-ccfa-4e08-a82f-e934c66bd2e3">
 
 
-Built in Rust. To use it, you will need to compile it yourself (for now). Pre-built packages will come soon!
+Built in Rust. To use it, you can download the available packages from the releases or compile it yourself (make sure you have Rust installed).
+
+```sh
+git clone https://github.com/withblob/dns.git
+cd dns
+cargo build --release
+```
+### 💚 Contributions and feature requests are welcome!
 
 Licensed under MIT license.
 
-Copyright withblob.com
+Copyright (c) withblob.com, 2023.
